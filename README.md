@@ -1,3 +1,3 @@
-# Stores-Rest-Api
+# Stores-REST-API
 
-It is a RESTful web Api to store and access "Stores" and their "Items" data together.
+It is a RESTful web API to store and access "Stores" and their "Items" data together.
