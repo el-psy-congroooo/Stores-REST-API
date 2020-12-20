@@ -17,6 +17,7 @@ class Item(Resource):
     parser.add_argument('store_id', type=int, required=True,
                         help='Every item must have a store id.')
 
+    @jwt_required()
     def get(self, name):
         item = ItemModel.find_by_name(name)
         if item:
